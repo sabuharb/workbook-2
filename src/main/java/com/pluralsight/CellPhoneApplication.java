@@ -7,7 +7,7 @@ public class CellPhoneApplication {
     private String phoneNumber;
     private String owner;
 
-    // Constructor with default values
+
     public CellPhoneApplication() {
         this.serialNumber = 0;
         this.model = "";
@@ -16,28 +16,28 @@ public class CellPhoneApplication {
         this.owner = "";
     }
 
-    // Getters and Setters
+
     public int getSerialNumber() {
-        return serialNumber;  // Fixed return value
+        return serialNumber;
     }
 
     public void setSerialNumber(int serialNumber) {
-        this.serialNumber = serialNumber;  // Fixed assignment
+        this.serialNumber = serialNumber;
     }
 
     public String getModel() {
         return model;
     }
 
-    public void setModel(String model) {  // Added void return type
+    public void setModel(String model) {
         this.model = model;
     }
 
     public String getCarrier() {
-        return carrier;  // Fixed case of carrier
+        return carrier;
     }
 
-    public void setCarrier(String carrier) {  // Fixed case of method and assignment
+    public void setCarrier(String carrier) {
         this.carrier = carrier;
     }
 
@@ -46,7 +46,7 @@ public class CellPhoneApplication {
     }
 
     public void setPhoneNumber(String phoneNumber) {
-        this.phoneNumber = phoneNumber;  // Fixed assignment
+        this.phoneNumber = phoneNumber;
     }
 
     public String getOwner() {
